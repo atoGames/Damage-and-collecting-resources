@@ -888,6 +888,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AxePrefab: {fileID: 2488915889958085675, guid: c8abccebf51185b4097c6c21f9537b03, type: 3}
+  m_ItemLayer:
+    serializedVersion: 2
+    m_Bits: 16
 --- !u!1 &2127023762 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e4486786cb39f2c4780be427bf41fc75, type: 3}

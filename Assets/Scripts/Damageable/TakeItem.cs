@@ -16,7 +16,7 @@ public class TakeItem : MonoBehaviour
         _Text = Instantiate(Resources.Load<GameObject>("Text/Text prefab"), transform.position + Vector3.up, Quaternion.identity, transform).GetComponent<TextMeshPro>();
 
         // Chnage Text and add color
-        _Text.text = "TAKE \n <color=#7CFC00> PRESS E </color>";
+        _Text.text = "TO TAKE \n <color=#7CFC00> PRESS E </color>";
         // Change font size 
         {
             _Text.fontSizeMin = 1;
